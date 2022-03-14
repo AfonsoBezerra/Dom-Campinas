@@ -107,12 +107,18 @@ html {
 .img-header {
     background-color: #ffffff;
     width: 100vw;
-    height: 130vh;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 5px black;
-    background-image: url(./Assets/img/background.png);
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.img-header-apert{
+    padding-top: 5rem;
+    align-items: end
+}
+.img-header-apert img{
+    width: 100%;
+    height: 100%
 }
 
 .textos-cabecalho{
@@ -494,7 +500,7 @@ html {
 }
 
 .main{
-    transform: translateY(-50px);
+   transform: translateY(-50px); 
 }
 
 .local {
@@ -846,7 +852,7 @@ html {
 .form {
     width: 100vw;
     height: auto;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .title-form {
@@ -1026,9 +1032,6 @@ html {
     }
     .button_cadastra {
         margin-left: 0px;
-    }
-    .img-header {
-        height: 170vh;
     }
 }
 
